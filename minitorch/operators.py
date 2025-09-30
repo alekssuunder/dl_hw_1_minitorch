@@ -62,7 +62,7 @@ def sigmoid(x: float) -> float:
 
     for stability.
     """
-    return 1.0 / (1.0 + math.exp(-abs(x)))
+    return 1.0 / (1.0 + math.exp(-x))
 
 
 def relu(x: float) -> float:
